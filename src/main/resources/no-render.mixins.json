@@ -1,0 +1,29 @@
+{
+	"required": true,
+	"package": "meow.cats.mixin",
+	"compatibilityLevel": "JAVA_25",
+	"mixins": [
+		"MixinLightmap",
+		"MixinAbstractBlockState",
+		"MixinAccessibilityOptionsScreen",
+		"MixinBossHealthOverlay",
+		"MixinFogRenderer",
+		"MixinHeadLayerMixin",
+		"MixinHud",
+		"MixinHumanoidArmorLayer",
+		"MixinLevelExtractor",
+		"MixinLevelRenderer",
+		"MixinLocalPlayer",
+		"MixinParticleEngine",
+		"MixinScreenEffectRenderer",
+		"MixinCamera",
+		"MixinMobEffectFogEnvironment"
+	],
+
+	"injectors": {
+		"defaultRequire": 1
+	},
+	"overwrites": {
+		"requireAnnotations": true
+	}
+}

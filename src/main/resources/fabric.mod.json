@@ -1,0 +1,33 @@
+{
+	"schemaVersion": 1,
+	"id": "no-render",
+	"version": "${version}",
+	"name": "No Render",
+	"description": "NoRender is a customizable Fabric mod that lets you disable any unwanted visual effects, screen overlays, HUD elements, and particles.",
+	"authors": [
+		"Myowiri"
+	],
+	"contact": {
+		"sources": "https://github.com/Myowiri/NoRender"
+	},
+	"icon": "assets/no-render/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"client": [
+			"meow.cats.NoRender"
+		],
+		"modmenu": [
+			"meow.cats.gui.ModMenuNR"
+		]
+	},
+	"mixins": [
+		"no-render.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.17.0",
+		"minecraft": "~26.3",
+		"java": ">=21",
+		"fabric-api": "*",
+		"catgui-api": "*"
+	}
+}
