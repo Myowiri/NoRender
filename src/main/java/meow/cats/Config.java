@@ -34,7 +34,7 @@ public class Config {
             .create();
 
     private static final Path PATH =
-            FabricLoader.getInstance().getConfigDir().resolve("TotemParticles.json");
+            FabricLoader.getInstance().getConfigDir().resolve("NoRender.json");
 
     public boolean fullBright = false;
     public boolean noBlockOverlay = true;
